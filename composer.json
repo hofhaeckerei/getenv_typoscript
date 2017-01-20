@@ -1,0 +1,11 @@
+{
+    "name": "h4ck3r31/dotenv",
+    "type": "typo3-cms-extension",
+    "version": "1.0.0",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "H4ck3r31\\Dotenv\\": "Classes/"
+        }
+    }
+}
