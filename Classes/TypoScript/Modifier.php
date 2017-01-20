@@ -23,7 +23,7 @@ class Modifier implements SingletonInterface {
      */
     public function resolve(array $parameters)
     {
-        $value = getenv($parameters['currentValue']);
+        $value = getenv($parameters['functionArgument']);
         if (
             $value === null || $value === false
             || is_object($value) || is_array($value)
