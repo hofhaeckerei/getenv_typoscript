@@ -1,11 +1,11 @@
 {
-    "name": "h4ck3r31/dotenv",
+    "name": "h4ck3r31/getenv-typoscript",
     "type": "typo3-cms-extension",
     "version": "1.0.0",
     "require": {},
     "autoload": {
         "psr-4": {
-            "H4ck3r31\\Dotenv\\": "Classes/"
+            "H4ck3r31\\GetEnvTypoScript\\": "Classes/"
         }
     }
 }

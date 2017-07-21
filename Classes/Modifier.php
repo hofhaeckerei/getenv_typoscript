@@ -1,5 +1,5 @@
 <?php
-namespace H4ck3r31\Dotenv\TypoScript;
+namespace H4ck3r31\GetEnvTypoScript;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -16,7 +16,8 @@ namespace H4ck3r31\Dotenv\TypoScript;
 
 use TYPO3\CMS\Core\SingletonInterface;
 
-class Modifier implements SingletonInterface {
+class Modifier implements SingletonInterface
+{
     /**
      * @param array $parameters
      * @return string

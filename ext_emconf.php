@@ -1,7 +1,7 @@
 <?php
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'DotEnv Provider',
-    'description' => 'DotEnv Provider',
+    'title' => 'GetEnv TypoScript modifier',
+    'description' => 'GetEnv TypoScriot modifier',
     'category' => 'misc',
     'constraints' => [
         'depends' => [
@@ -12,7 +12,7 @@ $EM_CONF[$_EXTKEY] = [
     ],
     'autoload' => [
         'psr-4' => [
-            'H4ck3r31\\Dotenv\\' => 'Classes',
+            'H4ck3r31\\GetEnvTypoScript\\' => 'Classes',
         ],
     ],
     'state' => 'stable',
