@@ -1,7 +1,16 @@
 {
     "name": "h4ck3r31/getenv-typoscript",
     "type": "typo3-cms-extension",
+    "license": "GPL-2.0+",
     "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Oliver Hader",
+            "role": "Developer",
+            "email": "oliver.hader@typo3.org",
+            "homepage": "https://hofhaeckerei.de/"
+        }
+    ],
     "require": {},
     "autoload": {
         "psr-4": {
