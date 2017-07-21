@@ -2,7 +2,7 @@
     "name": "h4ck3r31/getenv-typoscript",
     "type": "typo3-cms-extension",
     "license": "GPL-2.0+",
-	"description": "This TYPO3 extension provides a simple way to access environment variables within TypoScript at places where stdWrap is not available.",
+    "description": "This TYPO3 extension provides a simple way to access environment variables within TypoScript at places where stdWrap is not available.",
     "authors": [
         {
             "name": "Oliver Hader",
