@@ -1,7 +1,7 @@
 <?php
 $EM_CONF[$_EXTKEY] = [
     'title' => 'GetEnv TypoScript modifier',
-    'description' => 'GetEnv TypoScriot modifier',
+    'description' => 'This TYPO3 extension provides a simple way to access environment variables within TypoScript at places where stdWrap is not available.',
     'category' => 'misc',
     'constraints' => [
         'depends' => [
@@ -22,6 +22,6 @@ $EM_CONF[$_EXTKEY] = [
     'author' => 'Oliver Hader',
     'author_email' => 'oliver.hader@typo3.org',
     'author_company' => 'HofHäckerei',
-    'version' => '1.0.0',
+    'version' => '1.0-dev',
     'clearcacheonload' => true,
 ];
